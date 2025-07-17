@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-   baseURL: "http://localhost:10000", // backend FastAPI
+   baseURL: "https://financas-web-19.onrender.com", // backend FastAPI
 });
 
 export default api;
