@@ -43,7 +43,7 @@ const Login = () => {
         <p className="mt-2 text-center text-sm text-gray-600">
           Ou{' '}
           <button 
-            onClick={() => navigate('/cadastro')} 
+            onClick={() => navigate('/registrar')} 
             className="font-medium text-blue-600 hover:text-blue-500 focus:outline-none"
           >
             crie uma nova conta
