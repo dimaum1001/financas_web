@@ -31,12 +31,12 @@ origins = [
     "https://financas-eh402zgg2-dimaum1001s-projects.vercel.app",
     "https://financas-web-eight.vercel.app",
     "https://financas-web-dimaum1001s-projects.vercel.app",
-    "https://financas-web-git-main-dimaum1001s-projects.vercel.app",
-    "https://financas-m9j20ipz9-dimaum1001s-projects.vercel.app/",
+    "financas-web-git-main-dimaum1001s-projects.vercel.app",
+    "financas-i00vwzymh-dimaum1001s-projects.vercel.app",
 ]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
