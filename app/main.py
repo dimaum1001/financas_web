@@ -28,7 +28,11 @@ app = FastAPI(title="Gestão Financeira Pessoal")
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://financas-eh402zgg2-dimaum1001s-projects.vercel.app" ,
+    "https://financas-eh402zgg2-dimaum1001s-projects.vercel.app",
+    "https://financas-web-eight.vercel.app",
+    "https://financas-web-dimaum1001s-projects.vercel.app",
+    "https://financas-web-git-main-dimaum1001s-projects.vercel.app",
+    "https://financas-m9j20ipz9-dimaum1001s-projects.vercel.app/",
 ]
 app.add_middleware(
     CORSMiddleware,
